@@ -15,7 +15,13 @@ public class Main {
 		Student s2= new Student(102,"Lee",21);
 		al.add(s2);
 		al.add(new Student(103,"Park",25));
-		
+		al.add(new Student(104,"Choi",24));
+		al.add(new Student(105,"Kwak",23));
+		al.add(new Student(106,"Oh",22));
+		al.add(new Student(107,"Kwon",21));
+		al.add(new Student(108,"Jo",20));
+		al.add(new Student(109,"Shin",28));
+		al.add(new Student(110,"Kang",26));
 		
 		Collections.sort(al);
 		for(Student s : al) {
